@@ -40,10 +40,8 @@ deploy:
 
     bucket: springboot-aws-hoseok
     key : springaws.zip
-
     bundle_type : zip
     application : springboot-aws
-
     deplyment_group : springboot-aws-group
     region: ap-northeast-2
     wait-until-deployed : true
